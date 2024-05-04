@@ -1,0 +1,25 @@
+.formStyle {
+
+    position: absolute;
+  
+    top: 35%;
+    width: 100%;
+}
+
+@media only screen and (width: 400px) {
+    
+    .formStyle {
+
+        width: 80%;
+
+
+    }
+
+  }
+
+.imgStyle {
+
+    width: 100%;
+    height: 50vh;
+
+}
