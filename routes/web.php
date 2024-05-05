@@ -34,6 +34,8 @@ Route::get('/createevent', function () {
 
 Route::POSt('/dashboard', [Controller::class, 'login']);
 
+Route::POSt('/dashboard', [Controller::class, 'search']);
+
 Route::POSt('/createevent', [Controller::class, 'createEvent']);
 
 Route::get('/logout', [Controller::class, 'logout']);
