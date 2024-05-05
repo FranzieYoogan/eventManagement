@@ -14,8 +14,9 @@ body {
 
 .formCreate {
 
-    border: 2px solid black;
+    border: 2px solid #ff8778;
     padding: 20px;
+    box-shadow: 0px 0px 4px 0px black;
     background-color: white;
     border-radius: 10px;
 
