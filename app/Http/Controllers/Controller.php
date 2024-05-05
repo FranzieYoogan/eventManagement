@@ -26,6 +26,12 @@ class Controller extends BaseController
 
             return redirect()->to('http://127.0.0.1:8000/dashboard');;
 
+        } else {
+
+            $error = true;
+
+            return view('welcome', ['error' => $error]);
+
         }
         
 
