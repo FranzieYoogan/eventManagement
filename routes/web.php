@@ -32,7 +32,7 @@ Route::get('/createevent', function () {
 
 
 
-Route::POSt('/dashboard', [Controller::class, 'login']);
+Route::POSt('/', [Controller::class, 'login']);
 
 Route::POSt('/dashboard', [Controller::class, 'search']);
 
