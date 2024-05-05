@@ -6,6 +6,12 @@
     width: 100%;
 }
 
+body {
+
+    background: linear-gradient(to right, white, #ff8778);
+
+}
+
 @media only screen and (width: 400px) {
     
     .formStyle {
@@ -21,5 +27,5 @@
 
     width: 100%;
     height: 50vh;
-
+    border-bottom: 3px solid white;
 }

@@ -1,0 +1,35 @@
+body {
+
+    background: linear-gradient(to right, white, #ff8778);
+
+}
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em ;
+}
+
+.formCreate {
+
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.buttonCreate {
+
+    width: 100% !important;
+    background-color: #1f2937 !important;
+
+}
+
+.buttonCreate:hover {
+
+    background-color:#394a61 !important;
+
+}

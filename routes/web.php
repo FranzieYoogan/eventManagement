@@ -26,9 +26,15 @@ Route::get('/logout', function () {
     return view('logout');
 });
 
+Route::get('/createevent', function () {
+    return view('createevent');
+});
+
 
 
 Route::POSt('/dashboard', [Controller::class, 'login']);
+
+Route::POSt('/createevent', [Controller::class, 'createEvent']);
 
 Route::get('/logout', [Controller::class, 'logout']);
 

@@ -9,12 +9,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
+    <link rel="stylesheet" href="{{asset('/css/header.css')}}">
+
 </head>
 <body>
 
     
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="navbar bg-white border-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         @if (!session()->has('admin'))
 
