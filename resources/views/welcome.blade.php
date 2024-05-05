@@ -24,7 +24,7 @@
 
         @include('header')
 
-<form class="formStyle max-w-sm mx-auto" method="POST" action="/">
+<form class="formStyle max-w-sm mx-auto" method="POST" action="/  ">
     @csrf
     <div class="mb-5">
       <label for="userName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your userName</label>

@@ -24,7 +24,7 @@ class Controller extends BaseController
 
             $session = session(['admin' => $userName]);
 
-            return view('dashboard', ['session' => $session]);
+            return redirect()->to('http://127.0.0.1:8000/dashboard');;
 
         }
         
