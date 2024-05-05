@@ -87,3 +87,29 @@ body {
     font-style: italic;
 
 }
+
+.btnStyle {
+
+    background-color: #ff8778 !important;
+    
+
+}
+
+.btnStyle:hover {
+
+    background-color:  #ff1e00  !important;
+
+}
+
+.inputStyle {
+
+    border: 2px solid black !important;
+    outline: none !important;
+}
+
+.inputStyle:hover, .inputStyle:focus, .inputStyle:active {
+
+    border: 2px solid #ff8778 !important;
+    box-shadow: 0px 0px 4px 0px #ff8778  !important ;
+
+}

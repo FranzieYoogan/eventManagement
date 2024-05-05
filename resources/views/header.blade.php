@@ -20,16 +20,16 @@
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         @if (!session()->has('admin'))
 
-      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="{{asset('img/icons/event.png')}}" class="h-8" alt="Flowbite Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Event Management</span>
+      <a href="/" class="linkStyle flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="{{asset('img/icons/event.png')}}" class="iconTitle h-8" alt="Flowbite Logo" />
+          <span class="linkTitleStyle self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Event Management</span>
       </a>
 
       @else
 
-      <a href="/dashboard" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="{{asset('img/icons/event.png')}}" class="h-8" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Event Management</span>
+      <a href="/dashboard" class="linkStyle flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="{{asset('img/icons/event.png')}}" class="iconTitle h-8" alt="Flowbite Logo" />
+        <span class="linkTitleStyle self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Event Management</span>
     </a>
 
       @endif
@@ -45,7 +45,7 @@
             @if (!session()->has('admin'))
 
             <li>
-                <a href="/" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Login</a>
+                <a href="/" class="linkStyle block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Login</a>
               </li>
                 
             @else
@@ -55,16 +55,16 @@
 
 
           <li>
-            <a href="/dashboard" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">{{session('admin')}}</a>
+            <a href="/dashboard" class="linkStyle block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">{{session('admin')}}</a>
           </li>
 
           
           <li>
-            <a href="/createevent" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Create Event</a>
+            <a href="/createevent" class="linkStyle block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Create Event</a>
           </li>
 
           <li>
-            <a href="/logout" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">logout</a>
+            <a href="/logout" class="linkStyle block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">logout</a>
           </li>
               
           @endif
