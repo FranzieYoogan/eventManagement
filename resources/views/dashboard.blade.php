@@ -51,8 +51,9 @@
 
             @foreach ($eventStuff as $item)
 
-                <h1 class="titleEvent">{{$item->eventName}} {{$item->eventDate}}</h1>
+                <h1 class="titleEvent">{{$item->eventName}} -  {{$item->eventDate}}</h1>
                 <img class="imgEvent" src="{{'/uploads/' . $item->eventImg}}" alt="">
+                <p class="about">{{$item->eventDescription}} - {{$item->eventCity}}</p>
                 
             @endforeach
 

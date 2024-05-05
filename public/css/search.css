@@ -35,6 +35,8 @@ body {
 
     width: 500px;
     height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 
@@ -65,9 +67,23 @@ body {
 .titleEvent {
 
     position: absolute;
+    background-color: #ff8778;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    top: 1.5em;
     left: 1em;
     color: white;
     font-weight: 900;
     text-shadow: 2px 2px 2px black;
+
+}
+
+.about {
+
+    color: #ff8778;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 900;
+    font-style: italic;
 
 }
