@@ -3,3 +3,15 @@
     margin-top: 3em;
 
 }
+
+.btnLogin {
+
+    background-color: #ff8778 !important;
+    width: 100% !important;
+}
+
+.btnLogin:hover {
+
+    background-color:  #ff1e00  !important;
+
+}
