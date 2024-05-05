@@ -4,9 +4,15 @@
 
 }
 
+.linkStyle {
+
+    color: black !important;
+
+}
+
 .linkStyle:hover {
 
-    color: #ff8778;
+    color: #ff8778 !important;
    
 }
 
