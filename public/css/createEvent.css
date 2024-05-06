@@ -25,12 +25,18 @@ body {
 .buttonCreate {
 
     width: 100% !important;
-    background-color: #1f2937 !important;
+    background-color: #ff8778 !important;
 
 }
 
 .buttonCreate:hover {
 
-    background-color:#394a61 !important;
+    background-color:  #ff1e00  !important;
 
 }
+
+input[type=file] {
+    display: block;
+    color: #ff8778 ;
+    font-style: oblique;
+  }
