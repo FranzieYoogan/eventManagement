@@ -61,8 +61,10 @@
 
             @if (isset($error))
 
-           
-            <h1>Failed</h1>
+                <div class="errorAlertDashboard">
+                    <h1 class="errorDashboard">Invalid Value</h1>
+                </div>
+          
            
            
       
