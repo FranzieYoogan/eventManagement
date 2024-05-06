@@ -30,6 +30,11 @@ Route::get('/createevent', function () {
     return view('createevent');
 });
 
+Route::get('/allevents', function () {
+    return view('allevents');
+});
+
+
 
 
 Route::POSt('/', [Controller::class, 'login']);
@@ -39,5 +44,7 @@ Route::POSt('/dashboard', [Controller::class, 'search']);
 Route::POSt('/createevent', [Controller::class, 'createEvent']);
 
 Route::get('/logout', [Controller::class, 'logout']);
+
+Route::get('/allevents', [Controller::class, 'allEvents']);
 
 

@@ -83,4 +83,21 @@ class Controller extends BaseController
             }
 
     }
+
+    public function allEvents() {
+
+        $allEvents = DB::select('select * from eventStuff');
+
+        if($allEvents) {
+            return view('allevents', ['allEvents' => $allEvents]);
+
+        } else {
+
+            $error = true;
+            return view('allevents', ['error' => $error]);
+        }
+        
+   
+
+    }
 }

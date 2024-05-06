@@ -1,0 +1,115 @@
+.imgAll {
+
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.titleAll {
+
+    position: absolute;
+    background-color: #ff8778;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    top: 1.5em;
+    left: 1em;
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px black;
+}
+
+.containerAll {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 3em;
+
+
+}
+
+@media only screen and (width: 400px) {
+
+    .imgAll {
+
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .titleAll {
+
+        position: absolute;
+        background-color: #ff8778;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        top: 0.5em;
+        left: 0.5em;
+        color: white;
+        font-weight: 900;
+        font-size: 10px !important;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .descriptionAll {
+
+        color: #ff8778;
+        text-shadow: 2px 2px 2px black;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 10px !important;
+    }
+
+  }
+
+
+  @media only screen and (width: 554px) {
+
+    .imgAll {
+
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .titleAll {
+
+        position: absolute;
+        background-color: #ff8778;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        top: 0.5em;
+        left: 0.5em;
+        color: white;
+        font-weight: 900;
+        font-size: 13px !important;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .descriptionAll {
+
+        color: #ff8778;
+        text-shadow: 2px 2px 2px black;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 11px !important;
+    }
+
+  }
+
+.descriptionAll {
+
+    color: #ff8778;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 900;
+    font-style: italic;
+}
