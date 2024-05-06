@@ -6,14 +6,20 @@
 
 .linkStyle {
 
-    color: black !important;
+    color: #ff8778!important;
 
 }
 
 .linkStyle:hover {
 
-    color: #ff8778 !important;
+    color: #ff1e00 !important;
    
+}
+
+.inputLoginStyle {
+
+    border: 1px solid black;
+
 }
 
 
