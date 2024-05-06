@@ -17,7 +17,13 @@
 
     <section class="containerAll">
        
-        
+        <div>
+
+      
+
+        <div>
+
+      
 
 <form class="formCreate max-w-md mx-auto" method="POST" action="/createevent" enctype="multipart/form-data">
     @csrf
@@ -53,8 +59,19 @@
    
     <button type="submit" class="buttonCreate text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
   </form>
-  
+</div>
 
+
+  @if (isset($error))
+
+  <div style="display: flex; justify-content: center; margin-top: 1em">
+    <h1 class="errorCreate">ERROR!!</h1>
+  </div>
+
+      
+  @endif
+  
+</div>
     </section>
 
 

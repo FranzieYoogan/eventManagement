@@ -40,3 +40,10 @@ input[type=file] {
     color: #ff8778 ;
     font-style: oblique;
   }
+
+  .errorCreate {
+
+    color: red;
+    font-weight: 900;
+
+  }
