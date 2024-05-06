@@ -51,10 +51,12 @@ class Controller extends BaseController
         $eventDate = $request->input('eventDate');
         $eventCity = $request->input('eventCity');
         $eventDescription = $request->input('eventDescription');
-        $eventPrivate = strtoupper($request->input('eventPrivate'));
+        $eventPrivate = strtolower($request->input('eventPrivate'));
         $eventImage = $request->file('eventImage')->store('uploads', 'public');
 
-        if($eventPrivate == "SIM" || $eventPrivate == "NAO" || $eventPrivate == "NÂO") {
+  
+
+        if($eventPrivate == "sim" || $eventPrivate == "nao" || $eventPrivate == "não") {
 
             DB::insert("insert into eventStuff (eventName, eventDate, eventCity, eventPrivate, eventDescription, eventImg) values ('$eventName','$eventDate', '$eventCity', '$eventPrivate','$eventDescription', '$eventImage')");
 
